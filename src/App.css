@@ -1,0 +1,58 @@
+.book-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.header {
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  width: 0 auto;
+  /* margin: 0 auto; */
+  align-items: flex-start;
+  height: 80px;
+  border: 1px solid;
+}
+
+.sub-header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.book-detail {
+  display: flex;
+  flex-direction: row;
+  max-height: 100px;
+  border: 1px solid;
+  padding: 2px;
+}
+
+.book-logo {
+  height: 75px;
+  width: 50px;
+}
+
+.book-header {
+  flex-direction: column;
+  display: flex;
+}
+.book-list {
+  height: 500px;
+  overflow-y: scroll;
+}
+.loader {
+  background-color: black;
+  color: white;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
