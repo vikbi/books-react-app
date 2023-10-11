@@ -8,7 +8,7 @@ const BookDetail = ({book, toggleSelection}) => {
     
       return (
         <div key={book.id} className="book-detail" data-testid="book-detail">
-          <input key={book.id} checked={book.is_checked} type="checkbox" onChange={(e) => toggleCheck(e.target.checked)}/>
+          <input data-testid="book-checkbox" key={book.id} checked={book.is_checked} type="checkbox" onChange={(e) => toggleCheck(e.target.checked)}/>
           <img className="book-logo" src={book.image} data-testid="book-logo"/>
           <div className="book-header">
             <label data-testid="book-title">{book.title}</label>

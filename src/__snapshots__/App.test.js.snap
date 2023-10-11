@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Matches DOM Snapshot 1`] = `
+<div
+  className="book-app"
+>
+  <div
+    className="header"
+  >
+    Books
+  </div>
+  <div
+    className="sub-header"
+  >
+    <span>
+      0
+       books 
+      <strong>
+        (
+        0
+         selected)
+      </strong>
+    </span>
+    <button
+      className="button-clear"
+      onClick={[Function]}
+    >
+      clear selection
+    </button>
+  </div>
+  <div
+    className="book-list"
+    onScroll={[Function]}
+  >
+    <div />
+  </div>
+</div>
+`;
+
+exports[`Matches DOM Snapshot 1`] = `
+<div
+  className="book-app"
+>
+  <div
+    className="header"
+  >
+    Books
+  </div>
+  <div
+    className="sub-header"
+  >
+    <span>
+      0
+       books 
+      <strong>
+        (
+        0
+         selected)
+      </strong>
+    </span>
+    <button
+      className="button-clear"
+      onClick={[Function]}
+    >
+      clear selection
+    </button>
+  </div>
+  <div
+    className="book-list"
+    onScroll={[Function]}
+  >
+    <div />
+  </div>
+</div>
+`;
