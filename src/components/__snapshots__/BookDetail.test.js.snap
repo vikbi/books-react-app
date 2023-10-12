@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Detail tests Matches DOM Snapshot 1`] = `
+<div
+  className="book-detail"
+  data-testid="book-detail"
+>
+  <input
+    checked={false}
+    data-testid="book-checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <img
+    className="book-logo"
+    data-testid="book-logo"
+    src="image-link"
+  />
+  <div
+    className="book-header"
+  >
+    <label
+      data-testid="book-title"
+    >
+      test book
+    </label>
+    <div>
+      <span
+        data-testid="book-author"
+      >
+        author1
+      </span>
+      <span
+        data-testid="book-author"
+      >
+        author2
+      </span>
+    </div>
+  </div>
+</div>
+`;
